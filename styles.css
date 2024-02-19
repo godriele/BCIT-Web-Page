@@ -93,3 +93,37 @@ nav img {
     background-color: #184fc4;
     transition: 1s;
 }
+
+nav .fa{
+    display: none;
+}
+@media(max-width: 400px) {
+    .text-box h1 {
+        font-size: 20px;
+    }
+    .nav-link ul li{
+        display: block; 
+    }
+    .nav-link ul {
+        position: absolute;
+        background: #184fc4;
+        height: 92.9vh;
+        width: 200px;
+        top: 0;
+        right: -260px;
+        text-align: left;
+        z-index: 2;
+        transition: 0s;
+    }
+    nav .fa{
+        display: block;
+        color: #fff;
+        margin: 10px;
+        font-size: 22px;
+        cursor: pointer;
+    }
+    .nav-link ul{
+        padding: 30px;
+
+    }
+}
